@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import Logo from '../Logo'
 
 function Footer() {
-  return (
-    <section className="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
+    return (
+        <section className="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
@@ -14,7 +14,8 @@ function Footer() {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-600">
-                                    &copy; Copyright 2025. All Rights Reserved by DevUI.
+                                    &copy; Copyright {new Date().getFullYear()}. All Rights Reserved by MegaBlog. <br />
+                                    Developed with &#x2764;&#xfe0f; by <b>Sajal Gupta</b>.
                                 </p>
                             </div>
                         </div>
@@ -137,7 +138,7 @@ function Footer() {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default Footer
