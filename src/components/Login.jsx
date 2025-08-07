@@ -68,6 +68,7 @@ function Login() {
                             {...register("password", {
                                 required: true,
                             })}
+                            autocomplete="current-password"
                         />
                         <Button
                             type="submit"
